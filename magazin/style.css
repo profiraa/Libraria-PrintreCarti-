@@ -1,0 +1,268 @@
+.menu{
+	background-color: rgb(151, 241, 241);
+	display: inline-table;
+	width: 15%;
+	height: 35%;
+	border-radius: 25px;
+	border-color: brown;
+	float: left;
+}
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: 420px;
+	margin-top: 50px;
+	width: 42%;
+	float: right;
+	box-shadow: 0 4px 8px 0 rgb(248, 244, 7), 0 6px 20px 0 rgba(252, 236, 16, 0.993);
+  }
+.pic{
+	border: 3px solid brown;
+	border-radius: 50px 20px;
+	margin: 30px auto;
+	display: block;
+}
+
+.empty{
+	background-color: white;
+}
+.contact{
+	background-color:rgb(235, 201, 178);
+	font-size: 22px;
+	font-style: normal;
+	border: 0.5px solid rgb(207, 148, 21);
+	width:35%;
+	height: 40%;
+	margin: 20px;
+	float:left;
+	margin-left: 80px;
+}
+.contact2{
+	background-color:rgb(223, 196, 204);
+	font-size: 22px;
+	font-style: normal;
+	border: 0.5px solid rgb(207, 136, 21);
+	width:38%;
+	height: 40%;
+	margin: 20px;
+	float:right;
+	margin-left: 80px;
+}
+.contact3{
+	background-color:rgb(141, 187, 133);
+	font-size: 22px;
+	font-style: normal;
+	color: purple;
+	border: 0.5px solid rgb(74, 173, 99);
+	width:90%;
+	height: 20%;
+	margin: 20px;
+	float:right;
+	margin-left: 80px;
+}
+.list{
+	list-style: none;
+}
+.list a {
+	color: rgba(36, 11, 179, 1.7);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/*facebook*/
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+  .fa-envelope {
+	background: #125688;
+	color: white; 
+}
+.social {
+	list-style: none;
+	margin-top:50px;
+	padding-left: 130px;
+}
+.social li {
+	display: block inline;
+	width:93%;
+}
+.social img {
+	width: 20%;
+	height: auto;
+	display: flex;
+	margin: 20px;
+	color: blue;
+}
+.body {
+	font: 400 14px/1.8 'Montserrat', sans-serif;
+	background-image: url("books.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+}
+.books{
+	float: right;
+	display: inline;
+	width: 80%;
+	background-color: rgb(253, 253, 219);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.informations{
+	float: right;
+	background-color: rgb(253, 253, 219);
+	display: inline;
+	width: 20%;
+	border-radius: 25px;
+	padding-left:20px;
+	height:50%;
+}
+	
+.informations2{
+		float: right;
+		background-color: rgb(253, 253, 219);
+		display: inline;
+		width: 80%;
+		border-radius: 25px;
+		padding-left:20px;
+		height:50%;
+}
+
+.h1{
+	color: red;
+	font-size: 25px;
+	writing-mode: vertical-rl;
+	position: right;	
+}
+.h2{
+	color: green;
+	font-size: 32px;
+	writing-mode: horizontal;	
+	float: right;
+	font-style: oblique;	
+}
+
+/* Slideshow*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: static;
+	margin: auto;
+	text-align: center;
+	}
+.mySlides {
+	display: none;
+	background-color:rgb(255,255,204);
+	border-radius: 45%;
+	}
+.prev, .next {
+	cursor: pointer;
+	position: absolute center;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: teal;;
+}
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+  }
+
+ /*newsletter*/ 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+
+form {
+	border: 3px solid #f1f1f1;
+	font-family: Arial;
+  }
+  
+.container {
+	padding: 20px;
+	background-color: #f1f1f1;
+	width:100%;
+  }
+  
+input[type=text], input[type=submit] {
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+input[type=checkbox] {
+	margin-top: 16px;
+  }
+  
+input[type=submit] {
+	background-color: #f0e0ed;
+	color: purple;
+	font-size: large;
+	border: none;
+  }
+  
+input[type=submit]:hover {
+	opacity: 0.8;
+  }
+
+/*avantaje*/
+.div{
+	float: left;
+	width: 320px;
+	padding: 10px;
+  }
+
+
+  
